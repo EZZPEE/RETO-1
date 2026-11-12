@@ -16,7 +16,7 @@ public class Ejercicio2 {
             resultados = resultados + suma + "\n"; 
             numero = scanner.nextLong();
         }
-        System.out.println("resultados:");
+        System.out.println("Resultados:");
         System.out.println(resultados);
 
         scanner.close();
