@@ -17,10 +17,9 @@ public class Ejercicio1 {
             }
             resultados.append(total).append("\n");
         }
-        System.out.println("Resultados:");
-        System.out.println(resultados);
+        System.out.println("Resultados: ");
+        System.out.println("            " + resultados);
         entrada.close();
     }
 }
-
 
