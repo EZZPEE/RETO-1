@@ -4,7 +4,7 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String resultados = "";
-
+        
         long numero = scanner.nextLong();
         while (numero != 0) {
             long suma = 0;
@@ -16,9 +16,9 @@ public class Ejercicio2 {
             resultados = resultados + suma + "\n"; 
             numero = scanner.nextLong();
         }
+        
+        scanner.close();
         System.out.println("Resultados:");
         System.out.println(resultados);
-
-        scanner.close();
     }
 }
