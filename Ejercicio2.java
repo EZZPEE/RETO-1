@@ -1,24 +1,28 @@
 import java.util.Scanner;
+
 /*
     PROBLEMA NUMERO 265
     SUMA    DESCENDENTE
 */
 
 public class Ejercicio2 {
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String resultados = "";
+        StringBuilder resultados = new StringBuilder();
         
         long numero = scanner.nextLong();
+        
         while (numero != 0) {
             long suma = 0;
             long divisor = 10;
+            
             while (divisor <= numero * 10) {
-                suma += numero % divisor; 
+                suma += numero % divisor;
                 divisor *= 10;
             }
             
-            resultados = resultados + suma + "\n"; 
+            resultados.append(suma).append("\n");
             numero = scanner.nextLong();
         }
         
