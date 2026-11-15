@@ -9,7 +9,7 @@ public class Ejercicio2 {
         while (numero != 0) {
             long suma = 0;
             long divisor = 10;
-            while (divisor / 10 <= numero) {
+            while (divisor <= numero * 10) {
                 suma += numero % divisor; 
                 divisor *= 10;
             }
