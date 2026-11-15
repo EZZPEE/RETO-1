@@ -2,24 +2,23 @@ import java.util.Scanner;
 public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int casos = entrada.nextInt();
+        int numeroCasos = entrada.nextInt();
         StringBuilder resultados = new StringBuilder();
 
-        for (int i = 0; i < casos; i++) {
-            long compartimentos = entrada.nextLong();
-            long capacidad = entrada.nextLong();
-            long diferencia = entrada.nextLong();
+        for (int i = 0; i < numeroCasos; i++) {
+            long numeroCompartimentos = entrada.nextLong();
+            long capacidadActual = entrada.nextLong();
+            long diferenciaCapacidad = entrada.nextLong();
 
-            long total = 0;
-            for (int j = 0; j < compartimentos; j++) {
-                total = total + capacidad;
-                capacidad = capacidad - diferencia;
+            long capacidadTotal = 0;
+            for (int j = 0; j < numeroCompartimentos; j++) {
+                capacidadTotal = capacidadTotal + capacidadActual;
+                capacidadActual = capacidadActual - diferenciaCapacidad;
             }
-            resultados.append(total).append("\n");
+            resultados.append(capacidadTotal).append("\n");
         }
-        System.out.println("Resultados: ");
-        System.out.println("            " + resultados);
+        
+        System.out.print(resultados);
         entrada.close();
     }
 }
-
