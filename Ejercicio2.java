@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+    PROBLEMA NUMERO 265
+    SUMA    DESCENDENTE
+*/
 
 public class Ejercicio2 {
     public static void main(String[] args) {
@@ -13,12 +17,12 @@ public class Ejercicio2 {
                 suma += numero % divisor; 
                 divisor *= 10;
             }
+            
             resultados = resultados + suma + "\n"; 
             numero = scanner.nextLong();
         }
         
         scanner.close();
-        System.out.println("Resultados:");
-        System.out.println(resultados);
+        System.out.print(resultados);
     }
 }
