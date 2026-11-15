@@ -1,10 +1,12 @@
 import java.util.Scanner;
+
 /*
     PROBLEMA    NUMERO    191
     LOS PROBLEMAS DE SER RICO
 */
 
 public class Ejercicio1 {
+    
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int numeroCasos = entrada.nextInt();
@@ -20,6 +22,7 @@ public class Ejercicio1 {
                 capacidadTotal += capacidadActual;
                 capacidadActual -= diferenciaCapacidad;
             }
+            
             resultados.append(capacidadTotal).append("\n");
         }
         
