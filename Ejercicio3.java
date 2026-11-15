@@ -29,7 +29,7 @@ public class Ejercicio3 {
         resultados.append("RUINA\n");
         
       } else {
-        while (envoltorios >= envoltoriosNecesarios){
+        while (envoltorios >= envoltoriosNecesarios) {
           long intercambios = envoltorios / envoltoriosNecesarios;
           long nuevosChicles = intercambios * chiclesRegalados;
           
