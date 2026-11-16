@@ -4,7 +4,6 @@ import java.util.Scanner;
     PROBLEMA NUMERO 265
     SUMA    DESCENDENTE
 */
-
 public class Ejercicio2 {
     
     public static void main(String[] args) {
