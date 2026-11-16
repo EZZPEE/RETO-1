@@ -1,3 +1,4 @@
 # RETO-1
 Reto 1 de EZPE &amp; ARBIZU (DAW SV)
 JAVIER EZPELETA Y JAVIER ALEJANDRO ARBIZU
+El RETO-1 consta de 3 apartados.
